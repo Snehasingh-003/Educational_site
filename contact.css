@@ -1,0 +1,88 @@
+
+*{
+  list-style:none;
+  text-decoration: none;
+  
+}.form-text{
+    /* justify-content: center; */
+    text-align: center;
+    /* margin-top:40px; */
+    height:100%;
+    /* border:2px solid red; */
+    /* background-image: url("https://wallpaperaccess.com/full/2579546.jpg"); */
+    padding-bottom:200px;
+    position:relative;
+}
+.form-text img{
+    max-width:100%;
+    height:auto;
+}
+.c-form{
+    width:50rem;
+    height:40rem;
+    /* border:2px solid red; */
+    /* border-radius: 10px; */
+    margin-top:100px;
+    position:absolute;
+    top:0;
+    margin-left:300px;
+}
+.box{
+    /* border:2px solid red; */
+    /* background-color: #ffe4b5 ;
+     */
+     /* background-image: url("https://i.pinimg.com/564x/63/06/7f/63067f1040fb2fba4a8036ad106942ac.jpg"); */
+    /* background-color: #ffe4b5; */
+  background: linear-gradient(to right, #e6f4ec 100%,#ffffff 100%);
+  /* border-radius: 500px; */
+
+
+
+    height:10rem;
+}
+.text{
+    /* border-radius: 500px; */
+
+    background-color: white;
+    
+}
+.box p{
+    font-size: 30px;
+  padding-top:50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#name{
+    border-radius: 10px;
+    padding-top:8px;
+}
+#email{
+    padding-top:8px;
+
+    border-radius: 10px;
+
+}
+.contact{
+    margin-top:20px;
+    width:100px;
+    height:40px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.7 ease transform 0.9 ease;
+
+    /* background-color: #ffe4b5; */
+  background: linear-gradient(to right, #e6f4ec 100%, #e6f4ec 100%);
+
+}
+.contact:hover{ 
+    transform:scale(1.1);
+    background: linear-gradient(to right, #b2d9c7, #e6f4ec); 
+    /* background-color: black; */
+
+}
+.signup{
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
